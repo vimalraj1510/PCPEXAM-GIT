@@ -34,6 +34,7 @@ function Filter() {
         value={restaurant}
         onChange={handleInput}
         placeholder="Enter restaurant name"
+        data-testid="filter-input"
       />
       {/* Display error if any */}
       {error && <p style={{color: 'red'}}>{error}</p>}
