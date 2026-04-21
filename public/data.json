@@ -1,0 +1,39 @@
+[
+  {
+    "orderid": "1",
+    "customername": "John Doe",
+    "restauant": "Pizza Place",
+    "items": [
+      {"name": "Pizza", "price": 10, "quantity": 2},
+      {"name": "Drink", "price": 2, "quantity": 1}
+    ],
+    "totalamount": 22,
+    "status": "delivered",
+    "deliverytime": "2023-01-01T12:00:00Z",
+    "rating": 5
+  },
+  {
+    "orderid": "2",
+    "customername": "Jane Smith",
+    "restaurant": "Burger Joint",
+    "items": [
+      {"name": "Burger", "price": 8, "quantity": 1}
+    ],
+    "totalamount": 8,
+    "status": "pending",
+    "deliverytime": null,
+    "rating": null
+  },
+  {
+    "orderid": "3",
+    "customername": "Bob",
+    "restauant": "Taco Stand",
+    "items": [
+      {"name": "Taco", "price": 3, "quantity": 3}
+    ],
+    "totalamount": 9,
+    "status": "cancelled",
+    "deliverytime": null,
+    "rating": null
+  }
+]
