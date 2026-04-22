@@ -7,7 +7,7 @@ function Orders() {
   // Filter to show only pending orders
   const pendingOrders = state.orders.filter(order => order.status === 'pending')
   return (
-    <div>
+    <div className="card">
       <h1>Pending Orders</h1>
       {/* Map over pending orders and display using OrderSummary */}
       {pendingOrders.map(order => (
